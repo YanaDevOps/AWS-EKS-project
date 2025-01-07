@@ -32,7 +32,6 @@ This project automates the provisioning of an Amazon EKS (Elastic Kubernetes Ser
 ```
 git clone https://github.com/YanaDevOps/AWS-EKS-project.git
 cd AWS-EKS-project
-
 ```
 2. Initialize Terraform:
 ```
