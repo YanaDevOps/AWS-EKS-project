@@ -1,4 +1,5 @@
 # AWS EKS Pet Project
+
 ## 🌟 Overview
 This project automates the provisioning of an Amazon EKS (Elastic Kubernetes Service) cluster and its supporting infrastructure using Terraform. It sets up networking, IAM roles, managed node groups, and cluster configurations for a production-ready Kubernetes environment.
 
@@ -31,27 +32,33 @@ This project automates the provisioning of an Amazon EKS (Elastic Kubernetes Ser
 ```
 git clone https://github.com/YanaDevOps/AWS-EKS-project.git
 cd AWS-EKS-project
+
 ```
 2. Initialize Terraform:
 ```
 terraform init
 ```
+
 3. Validate Terraform files:
 ```
 terraform validate
 ```
+
 4. Plan the Infrastructure:
 ```
 terraform plan
 ```
+
 5. Apply Terraform configuration:
 ```
 terraform apply
 ```
+
 6. Update kubeconfig for EKS access:
 ```
 aws eks update-kubeconfig --region <region> --name <cluster-name>
 ```
+
 7. Verify Cluster Access:
 ```
 kubectl get nodes
